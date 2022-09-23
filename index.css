@@ -149,6 +149,10 @@ a:visited {
   position: relative;
 }
 
+.card:hover {
+  scale: 0.95;
+}
+
 .card-spacer {
   background-color: transparent;
   height: 5vh;

@@ -12,3 +12,9 @@ function unoverlay(div) {
 
 }
 
+function clickLink(link) {
+    console.log("clicked")
+    window.open(link, '_blank');
+
+}
+
