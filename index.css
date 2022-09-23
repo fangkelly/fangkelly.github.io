@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  object-fit: cover;
+  width: 80vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #000;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 48px;
+  margin: 0;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.bubble-background {
+  width: 70vh;
+  height: 70vh;
+  position: fixed;
+  background-color: plum;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.yellow-background {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(238, 232, 170, 0.4);
+  position: fixed;
+  z-index: -2;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border: 1px solid black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(54, 54, 54);
+}
+
+.menu-link:hover {
+  color: white;
+}
+
+.menu-link a:hover {
+  color: white;
+}
+
+.back-btn a:hover {
+  color: plum;
+}
+
+.back-btn a:active {
+  color: black;
+}
+
+.back-btn {
+  position: fixed;
+  left: 5vh;
+  top: 5vh;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  background-color: transparent;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 70%;
+  position: relative;
+}
+
+.cards-container {
+  overflow: auto;
+  height: 70vh;
+  width: 90vh;
+  margin-top: 5vh;
+}
+
+.card {
+  height: 65vh;
+  width: 100%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card-spacer {
+  background-color: transparent;
+  height: 5vh;
+}
+
+.card-overlay {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.25s;
+}
+
+.show {
+  opacity: 0.8;
+}
+
+.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.card-overlay-sub {
+  padding: 5vh;
+}
+
+.wider-card-spacer {
+  background-color: transparent;
+  height: 10vh;
+  padding-top: 2vh;
+}
+
+.card-sub {
+  padding: 3vh;
+}
