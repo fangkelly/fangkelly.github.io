@@ -5,7 +5,7 @@ body {
 
 img {
   object-fit: cover;
-  width: 80vh;
+  width: 40vw;
 }
 
 h1,
@@ -133,7 +133,7 @@ a:visited {
 .cards-container {
   overflow: auto;
   height: 70vh;
-  width: 90vh;
+  width: 50vw;
   margin-top: 5vh;
 }
 
@@ -169,6 +169,7 @@ a:visited {
   display: flex;
   flex-direction: column;
   transition: opacity 0.25s;
+  overflow: scroll;
 }
 
 .show {
