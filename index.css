@@ -169,7 +169,7 @@ a:visited {
   display: flex;
   flex-direction: column;
   transition: opacity 0.25s;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .show {
