@@ -5,7 +5,8 @@ body {
 
 img {
   object-fit: cover;
-  width: 40vw;
+  width: 45vw;
+  max-height: 60vh;
 }
 
 h1,
