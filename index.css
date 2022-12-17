@@ -134,7 +134,7 @@ a:visited {
 .cards-container {
   overflow: auto;
   height: 70vh;
-  width: 50vw;
+  width: fit-content;
   margin-top: 5vh;
 }
 
